@@ -43,11 +43,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BalloonControlInfo.cs" />
+    <Compile Include="BPMInfo.cs" />
+    <Compile Include="BranchPlayInfo.cs" />
+    <Compile Include="BranchScore.cs" />
+    <Compile Include="BranchScoreControl.cs" />
+    <Compile Include="BranchType.cs" />
+    <Compile Include="DxDLL.cs" />
+    <Compile Include="Measure.cs" />
+    <Compile Include="Measure2.cs" />
+    <Compile Include="MeasureType.cs" />
+    <Compile Include="Note.cs" />
+    <Compile Include="NoteImageControl.cs" />
+    <Compile Include="NoteInfo.cs" />
+    <Compile Include="NoteText.cs" />
+    <Compile Include="NoteType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="Song.cs" />
+    <Compile Include="Supervision.cs" />
+    <Compile Include="TJA.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DxLib.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DxLib_x64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
